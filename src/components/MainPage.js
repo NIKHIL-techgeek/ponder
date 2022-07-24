@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { display } from '@mui/system';
+import './MainPage.css'
 export default function App() {
   return (
      <div>
@@ -27,10 +28,11 @@ export default function App() {
         </header>
         
     </section>
-    <a sx={{display:"inline"}}>
-        
-    <a href='/people'>
-    <Card sx={{ maxWidth: 345}} >
+  
+    <div className='parent'>
+      <div className='child'>
+      <a href='/people'>
+    <Card sx={{ maxWidth: 345}} style={{ width: '18rem', height: '18rem', whiteSpace: 'pre-wrap' }}>
       <CardMedia
         component="img"
         height="140"
@@ -47,7 +49,9 @@ export default function App() {
       </CardContent>
     </Card>
     </a>
-    
+      </div>
+      
+    <div className='child'>
     <a href='/people'>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -67,7 +71,9 @@ export default function App() {
       
     </Card>
     </a>
-    <a  href='/people'>
+    </div>
+<div className='child'>
+<a  href='/people'>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -86,7 +92,8 @@ export default function App() {
       
     </Card>
     </a>
-    </a>
+</div>
+    </div> 
      </div>
   
   )
