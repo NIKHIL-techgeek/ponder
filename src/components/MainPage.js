@@ -41,7 +41,7 @@ export default function App() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          WILD HACKS || (AUG 5TH-7TH)
+          WILD HACKS II (AUG 5TH-7TH)
         </Typography>
         <Typography variant="body2" color="text.secondary">
           APAC TIMEZONE -ONLINE 
@@ -93,6 +93,160 @@ export default function App() {
     </Card>
     </a>
 </div>
+
+<div className='child'>
+    <a  href='/people'>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardMedia
+            component="img"
+            height="140"
+            image="/static/images/cards/contemplative-reptile.jpg"
+            alt="green iguana"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              RDV HACKS (AUG 6TH - 7TH)
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              NEW YORK CITY, NEW YORK - IN PERSON ONLY
+            </Typography>
+          </CardContent>
+          
+        </Card>
+        </a>
+    </div>
+
+    <div className='child'>
+        <a  href='/people'>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardMedia
+                component="img"
+                height="140"
+                image="/static/images/cards/contemplative-reptile.jpg"
+                alt="green iguana"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  HOUDINIHACKS II (AUG 12TH - 14TH)
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  NORTH AMERICAN TIMEZONE-ONLINE
+                </Typography>
+              </CardContent>
+              
+            </Card>
+            </a>
+        </div>
+
+        <div className='child'>
+            <a  href='/people'>
+                <Card sx={{ maxWidth: 345 }}>
+                  <CardMedia
+                    component="img"
+                    height="140"
+                    image="/static/images/cards/contemplative-reptile.jpg"
+                    alt="green iguana"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                      SNAKES AND HACKERS II (AUG 12TH - 14TH)
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      APAC TIMEZONE, ONLINE
+                    </Typography>
+                  </CardContent>
+                  
+                </Card>
+                </a>
+        </div>
+
+        <div className='child'>
+            <a  href='/people'>
+                    <Card sx={{ maxWidth: 345 }}>
+                      <CardMedia
+                        component="img"
+                        height="140"
+                        image="/static/images/cards/contemplative-reptile.jpg"
+                        alt="green iguana"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          HACK THE 6IX
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          EVERYWHERE WORLDWIDE-ONLINE
+                        </Typography>
+                      </CardContent>
+                      
+                    </Card>
+            </a>
+        </div>
+
+        <div className='child'>
+                    <a  href='/people'>
+                        <Card sx={{ maxWidth: 345 }}>
+                          <CardMedia
+                            component="img"
+                            height="140"
+                            image="/static/images/cards/contemplative-reptile.jpg"
+                            alt="green iguana"
+                          />
+                          <CardContent>
+                            <Typography gutterBottom variant="h5" component="div">
+                              PENNAPPS XXIII
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                              PHILADELPHIA, PENNSYLVANIA - IN PERSON ONLY
+                            </Typography>
+                          </CardContent>
+                          
+                        </Card>
+                        </a>
+        </div>
+
+                    <div className='child'>
+                        <a  href='/people'>
+                            <Card sx={{ maxWidth: 345 }}>
+                              <CardMedia
+                                component="img"
+                                height="140"
+                                image="/static/images/cards/contemplative-reptile.jpg"
+                                alt="green iguana"
+                              />
+                              <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                  GLOBAL HACK WEEK SEPTEMBER
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                  EVERYWHERE WORLDWIDE - ONLINE
+                                </Typography>
+                              </CardContent>
+                              
+                            </Card>
+                            </a>
+                        </div>
+
+                        <div className='child'>
+                            <a  href='/people'>
+                                <Card sx={{ maxWidth: 345 }}>
+                                  <CardMedia
+                                    component="img"
+                                    height="140"
+                                    image="/static/images/cards/contemplative-reptile.jpg"
+                                    alt="green iguana"
+                                  />
+                                  <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                      HACKSMU IV (SEP 16TH - 18TH)
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                      DALLAS, TEXAS - IN PERSON 
+                                    </Typography>
+                                  </CardContent>
+                                  
+                                </Card>
+                                </a>
+                            </div>
     </div> 
      </div>
   
