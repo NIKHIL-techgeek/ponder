@@ -1,6 +1,10 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
 
 const columns = [
   { field: 'id', headerName: 'ID', width: 90 },
@@ -47,8 +51,33 @@ const rows = [
 ];
 
 export default function DataGridDemo() {
+  const [age, setAge] = React.useState('');
+
+  const handleChange = (event) => {
+    setAge(event.target.value);
+  };
   return (
-    <Box sx={{ height: 400, width: '100%' }}>
+    <div>
+      <Box sx={{ minWidth: 120 }}>
+      <FormControl fullWidth>
+        <InputLabel id="demo-simple-select-label">FILTER</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={age}
+          label="Age"
+          onChange={handleChange}
+        >
+          <MenuItem value={10}>Front End Development</MenuItem>
+          <MenuItem value={20}>Back End Development</MenuItem>
+          <MenuItem value={30}>Data Analytics</MenuItem>
+            <MenuItem value={40}>AI/ML</MenuItem>
+          <MenuItem value={50}>App Development</MenuItem>
+          <MenuItem value={60}>UI/UX</MenuItem>
+        </Select>
+      </FormControl>
+    </Box>
+      <Box sx={{ height: 400, width: '100%' }}>
       <DataGrid
         rows={rows}
         columns={columns}
@@ -58,5 +87,6 @@ export default function DataGridDemo() {
         disableSelectionOnClick
       />
     </Box>
+    </div>
   );
 }
