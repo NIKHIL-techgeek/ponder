@@ -39,11 +39,10 @@ export default function App() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          WILD HACKS || (AUG 5TH-7TH)
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          APAC TIMEZONE -ONLINE 
         </Typography>
       </CardContent>
     </Card>
@@ -62,7 +61,7 @@ export default function App() {
           BACKYARD HACKS 3 (JULY 29TH - 31ST)
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          NORTH AMERICAN TIME ZONE ONLINE
+          NORTH AMERICAN TIME ZONE -ONLINE
         </Typography>
       </CardContent>
       
@@ -78,11 +77,10 @@ export default function App() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          HACK WITH CREW (AUG 5TH -7TH)
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          NORTH AMERICAN TIMEZONE-ONLINE
         </Typography>
       </CardContent>
       
