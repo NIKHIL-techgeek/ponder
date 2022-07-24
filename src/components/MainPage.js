@@ -9,6 +9,17 @@ import Button from '@mui/material/Button';
 import { display } from '@mui/system';
 import './MainPage.css'
 import logo from '../assets/logo.svg'
+import wildhacks from '../assets/wildhacks.svg'
+import backyards from '../assets/backyards.svg'
+import hackwithcrew from '../assets/hackwithcrew.svg'
+import rdvhacks from '../assets/rdvhacks.svg'
+import houdinihacks from '../assets/houdinihacks.svg'
+import snakes from '../assets/snakes.svg'
+import hackthe6ix from '../assets/hackthe6ix.svg'
+import penapps from '../assets/penapps.svg'
+import globalhackweek from '../assets/globalhackweek.svg'
+import hacksmuiv from '../assets/hacksmuiv.svg'
+import image2vector_2 from '../assets/image2vector_2.svg'
 export default function App() {
   return (
      <div> 
@@ -26,24 +37,20 @@ export default function App() {
     </div>
 
 
-        
-        <section class="top-container">
-        <header class="showcase">
-            <image src={logo}/>
-        </header>
-        
-    </section>
+    
+       
   
     <div className='parent'>
       <div className='child'>
       <a href='/people'>
-    <Card sx={{ maxWidth: 345}} style={{ width: '18rem', height: '18rem', whiteSpace: 'pre-wrap' }}>
+    <Card sx={{ maxWidth: 345}} style={{ width: '18rem', height: '18rem', whiteSpace:'pre-wrap'  }}>
       <CardMedia
         component="img"
-        height="140"
+        height="180"
+        image={wildhacks}
         
       />
-      <CardContent>
+      <CardContent >
         <Typography gutterBottom variant="h5" component="div">
           WILD HACKS II (AUG 5TH-7TH)
         </Typography>
@@ -57,11 +64,11 @@ export default function App() {
       
     <div className='child'>
     <a href='/people'>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 , marginLeft: '1rem' }}>
       <CardMedia
         component="img"
         height="140"
-        image="../assets/unknown.png"
+        image={backyards}
         alt="green iguana"
       />
       <CardContent>
@@ -78,11 +85,11 @@ export default function App() {
     </div>
 <div className='child'>
 <a  href='/people'>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 , marginLeft: '1rem'}}>
       <CardMedia
         component="img"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image={hackwithcrew}
         alt="green iguana"
       />
       <CardContent>
@@ -100,11 +107,11 @@ export default function App() {
 
 <div className='child'>
     <a  href='/people'>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ marginLeft: '1rem'}}>
           <CardMedia
             component="img"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
+            height="230"
+            image={rdvhacks}
             alt="green iguana"
           />
           <CardContent>
@@ -122,11 +129,11 @@ export default function App() {
 
     <div className='child'>
         <a  href='/people'>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345 , marginLeft: '1rem' }}>
               <CardMedia
                 component="img"
-                height="140"
-                image="/static/images/cards/contemplative-reptile.jpg"
+                height="290"
+                image={houdinihacks}
                 alt="green iguana"
               />
               <CardContent>
@@ -144,11 +151,11 @@ export default function App() {
 
         <div className='child'>
             <a  href='/people'>
-                <Card sx={{ maxWidth: 345 }}>
+                <Card sx={{ maxWidth: 345, marginLeft: '1rem' }}>
                   <CardMedia
                     component="img"
-                    height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
+                    height="290"
+                    image={snakes}
                     alt="green iguana"
                   />
                   <CardContent>
@@ -166,11 +173,12 @@ export default function App() {
 
         <div className='child'>
             <a  href='/people'>
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ marginLeft: '1rem'}}>
                       <CardMedia
                         component="img"
-                        height="140"
-                        image="/static/images/cards/contemplative-reptile.jpg"
+                        height="290"
+                        width="220"
+                        image={hackthe6ix}
                         alt="green iguana"
                       />
                       <CardContent>
@@ -188,11 +196,11 @@ export default function App() {
 
         <div className='child'>
                     <a  href='/people'>
-                        <Card sx={{ maxWidth: 345 }}>
+                        <Card sx={{ maxWidth: 345, marginLeft: '1rem' }}>
                           <CardMedia
                             component="img"
                             height="140"
-                            image="/static/images/cards/contemplative-reptile.jpg"
+                            image={penapps}
                             alt="green iguana"
                           />
                           <CardContent>
@@ -210,11 +218,11 @@ export default function App() {
 
                     <div className='child'>
                         <a  href='/people'>
-                            <Card sx={{ maxWidth: 345 }}>
+                            <Card sx={{ maxWidth: 345 , marginLeft: '1rem'}}>
                               <CardMedia
                                 component="img"
-                                height="140"
-                                image="/static/images/cards/contemplative-reptile.jpg"
+                                height="260"
+                                image={globalhackweek}
                                 alt="green iguana"
                               />
                               <CardContent>
@@ -232,11 +240,11 @@ export default function App() {
 
                         <div className='child'>
                             <a  href='/people'>
-                                <Card sx={{ maxWidth: 345 }}>
+                                <Card sx={{ maxWidth: 345 , marginLeft: '1rem'}}>
                                   <CardMedia
                                     component="img"
-                                    height="140"
-                                    image="/static/images/cards/contemplative-reptile.jpg"
+                                    height="260"
+                                    image={hacksmuiv}
                                     alt="green iguana"
                                   />
                                   <CardContent>
