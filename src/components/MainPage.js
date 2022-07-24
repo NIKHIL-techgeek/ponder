@@ -8,10 +8,12 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { display } from '@mui/system';
 import './MainPage.css'
+import logo from '../assets/logo.svg'
 export default function App() {
   return (
-     <div>
-        <nav class="main-nav">
+     <div> 
+      <div className='og'> <img src={logo} className='img-container'/>
+      <nav class="main-nav">
             
         <Stack spacing={2} direction="row" >
       <Button variant="text" size="large">home</Button>
@@ -20,11 +22,14 @@ export default function App() {
     </Stack>            
             
         </nav>
+        
+    </div>
+
+
+        
         <section class="top-container">
         <header class="showcase">
-            <h1>sample text</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sed minus consequatur odit. Ipsum, quis.</p>
-            <a href="#" class="btn">Sample text</a>
+            <image src={logo}/>
         </header>
         
     </section>
@@ -36,8 +41,7 @@ export default function App() {
       <CardMedia
         component="img"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="green iguana"
+        
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
